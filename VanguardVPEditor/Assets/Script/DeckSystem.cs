@@ -25,7 +25,7 @@ public class DeckSystem : MonoBehaviour
     public void ReadDeckInfo()
     {
         XmlDocument document = new XmlDocument();
-        document.Load("Assets/Resource/XML/DeckList.xml");
+        document.Load("Assets/Resource/DeckList.xml");
 
         XmlNode deck = document.SelectSingleNode("DeckList");
         XmlNodeList deckList = deck.SelectNodes("Deck");
@@ -145,7 +145,7 @@ public class DeckSystem : MonoBehaviour
         }
 
         XmlDocument document = new XmlDocument();
-        document.Load("Assets/Resource/XML/DeckList.xml");
+        document.Load("Assets/Resource/DeckList.xml");
 
         XmlNode deck = document.SelectSingleNode("DeckList");
         XmlNodeList deckList = deck.SelectNodes("Deck");
@@ -265,7 +265,7 @@ public class DeckSystem : MonoBehaviour
         newDeck.SetAttribute("name", deckName);
         newDeck.SetAttribute("code", deckName);
         deck.AppendChild(newDeck);
-        document.Save("Assets/Resource/XML/DeckList.xml");
+        document.Save("Assets/Resource/DeckList.xml");
 
         for (int i = 0; i < GUnitList.Count; i++)
         {
@@ -303,7 +303,7 @@ public class DeckSystem : MonoBehaviour
             TUnit.AppendChild(card);
         }
 
-        xmlDocument.Save("Assets/Resource/XML/" + deckName + ".xml");
+        xmlDocument.Save("Assets/Resource/" + deckName + ".xml");
 
         GameObject systemManager = GameObject.FindWithTag("SystemManager");
         systemManager.GetComponent<DeckSystem>().ReadDeckInfo();
@@ -322,7 +322,7 @@ public class DeckSystem : MonoBehaviour
         string targetPath = databaseManager.GetXmlPath(target);
 
         XmlDocument document = new XmlDocument();
-        document.Load("Assets/Resource/XML/DeckList.xml");
+        document.Load("Assets/Resource/DeckList.xml");
 
         XmlNode deck = document.SelectSingleNode("DeckList");
         XmlNodeList deckList = deck.SelectNodes("Deck");
@@ -337,7 +337,7 @@ public class DeckSystem : MonoBehaviour
         }
 
         deck.RemoveChild(deck.ChildNodes[i]);
-        document.Save("Assets/Resource/XML/DeckList.xml");
+        document.Save("Assets/Resource/DeckList.xml");
 
         File.Delete(targetPath);
 

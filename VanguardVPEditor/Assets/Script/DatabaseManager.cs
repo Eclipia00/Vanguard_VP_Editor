@@ -8,7 +8,7 @@ public class DatabaseManager : MonoBehaviour
     
     public string GetXmlPath(string path)
     {
-        dataPath = "Assets/Resource/XML/" + path + ".xml";
+        dataPath = "Assets/Resource/" + path + ".xml";
         return dataPath;
     }
 }

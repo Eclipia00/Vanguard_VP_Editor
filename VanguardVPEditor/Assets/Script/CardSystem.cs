@@ -37,7 +37,7 @@ public class CardSystem : MonoBehaviour
         string cardText = textInput.text;
 
         XmlDocument xmlDocument = new XmlDocument();
-        xmlDocument.Load("Assets/Resource/XML/Proxy.xml");
+        xmlDocument.Load("Assets/Resource/Proxy.xml");
         XmlNode cardList = xmlDocument.SelectSingleNode("Proxy/Recorded");
         XmlElement card = xmlDocument.CreateElement("Card");
         card.SetAttribute("name", cardName);
@@ -50,7 +50,7 @@ public class CardSystem : MonoBehaviour
         card.AppendChild(text);
         cardList.AppendChild(card);
 
-        xmlDocument.Save("Assets/Resource/XML/Proxy.xml");
+        xmlDocument.Save("Assets/Resource/Proxy.xml");
 
         GameObject cardInput = GameObject.FindWithTag("CardInput");
         Destroy(cardInput);

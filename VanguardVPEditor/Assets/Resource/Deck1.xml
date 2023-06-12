@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Deck1>
+  <GUnit>
+    <Card name="시공룡 그로글록 드래곤" nation="다크 존" clan="기어 크로니클" type="G유닛" code="V-SS07/vss07_019" count="4" />
+    <Card name="시공룡 히스토리 빌드 드래곤" nation="다크 존" clan="기어 크로니클" type="G유닛" code="V-SS01/vss01_024" count="2" />
+    <Card name="유암의 원초룡 폴미도" nation="다크 존" clan="다크 존" type="G유닛" code="V-SS01/vss01_004" count="1" />
+    <Card name="종언의 제로스 드래곤 더스트" nation="다크 존" clan="다크 존" type="G유닛" code="G-BT14/gbt14_003" count="1" />
+    <Card name="크로노 드래곤 GG" nation="다크 존" clan="기어 크로니클" type="G유닛" code="G-CB04/gcb04_003" count="2" />
+    <Card name="시공수 메탈리카 피닉스" nation="다크 존" clan="기어 크로니클" type="G유닛" code="G-TD06/gtd06_001" count="1" />
+    <Card name="시공룡 헤테로라운드 드래곤" nation="다크 존" clan="기어 크로니클" type="G유닛" code="G-CB04/gcb04_009" count="2" />
+    <Card name="거슬러오르는 시간 소녀 우루루" nation="다크 존" clan="기어 크로니클" type="G유닛" code="G-FC03/gfc03_042" count="1" />
+    <Card name="하이브로스팀 라판나" nation="다크 존" clan="기어 크로니클" type="G유닛" code="G-BT07/gbt07_024" count="1" />
+    <Card name="각수수호 이리슈" nation="다크 존" clan="기어 크로니클" type="G유닛" code="G-BT14/gbt14_047" count="1" />
+  </GUnit>
+  <NUnit>
+    <Card name="크로노 드래곤 넥스테이지" nation="다크 존" clan="기어 크로니클" type="노말 유닛" code="V-EB14/veb14_002" count="3" />
+    <Card name="시공룡 미스터리 플레어 드래곤" nation="다크 존" clan="기어 크로니클" type="노말 유닛" code="V-EB04/veb04_002" count="2" />
+    <Card name="크로노제트 드래곤" nation="다크 존" clan="기어 크로니클" type="노말 유닛" code="V-TD10/vtd10_002" count="4" />
+    <Card name="스모크 기어 드래곤" nation="다크 존" clan="기어 크로니클" type="노말 유닛" code="V-EB14/veb14_006" count="4" />
+    <Card name="히스토리 메이커 드래곤" nation="다크 존" clan="기어 크로니클" type="노말 유닛" code="G-TD06/gtd06_007" count="3" />
+    <Card name="스팀 스카라 이루카부" nation="다크 존" clan="기어 크로니클" type="노말 유닛" code="V-EB13/veb13_017" count="2" />
+    <Card name="스팀 브레스 드래곤" nation="다크 존" clan="기어 크로니클" type="노말 유닛" code="V-EB14/veb14_007" count="4" />
+    <Card name="크로노투스 티거" nation="다크 존" clan="기어 크로니클" type="노말 유닛" code="V-EB13/veb13_018" count="3" />
+    <Card name="스팀 메이든 메람" nation="다크 존" clan="기어 크로니클" type="노말 유닛" code="G-BT05/gbt05_022" count="4" />
+    <Card name="똑딱 워커" nation="다크 존" clan="기어 크로니클" type="노말 유닛" code="G-BT05/gbt05_101" count="4" />
+    <Card name="크로노 드란" nation="다크 존" clan="기어 크로니클" type="노말 유닛" code="V-TD10/vtd10_010" count="1" />
+  </NUnit>
+  <TUnit>
+    <Card name="스팀 엔지니어 아바즈" nation="다크 존" clan="기어 크로니클" type="트리거 유닛" code="V-SS07/vss07_043" count="4" />
+    <Card name="스팀 가드 크샤트리아" nation="다크 존" clan="기어 크로니클" type="트리거 유닛" code="G-BT05/gbt05_103" count="4" />
+    <Card name="스팀 배틀러 우르 와타루" nation="다크 존" clan="기어 크로니클" type="트리거 유닛" code="V-EB04/veb04_014" count="4" />
+    <Card name="스팀 메이든 우루루" nation="다크 존" clan="기어 크로니클" type="트리거 유닛" code="V-TD10/vtd10_015" count="4" />
+  </TUnit>
+</Deck1>

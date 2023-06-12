@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Vanguard>
+  <Class name="트라이얼 덱" code="TD"/>
+  <Class name="정규 부스터" code="BT"/>
+  <Class name="G 트라이얼 덱" code="G-TD"/>
+  <Class name="G 정규 부스터" code="G-BT"/>
+  <Class name="V 트라이얼 덱" code="V-TD"/>
+  <Class name="V 정규 부스터" code="V-BT"/>
+  <Class name="V 엑스트라 부스터" code="V-EB"/>
+</Vanguard>
